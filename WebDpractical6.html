@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scholarship / Seminar Registration Form</title>
+
+<style>
+body{
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+fieldset{
+    margin-bottom: 15px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+input, select{
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    padding: 8px 15px;
+    margin: 5px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Scholarship / Seminar Registration</h1>
+
+<form>
+
+<fieldset>
+<legend>Personal Information</legend>
+
+Full Name:<br>
+<input type="text" name="name"><br><br>
+
+Email:<br>
+<input type="email" name="email"><br><br>
+
+Phone Number:<br>
+<input type="text" name="phone"><br><br>
+
+Gender:<br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+
+</fieldset>
+
+<fieldset>
+<legend>Education Details</legend>
+
+College Name:<br>
+<input type="text" name="college"><br><br>
+
+Course:<br>
+<select>
+<option>Select Course</option>
+<option>BCA</option>
+<option>BSc</option>
+<option>BTech</option>
+<option>MCA</option>
+<option>MBA</option>
+</select>
+<br><br>
+
+Year of Study:<br>
+<select>
+<option>First Year</option>
+<option>Second Year</option>
+<option>Third Year</option>
+<option>Final Year</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+<legend>Seminar Topics</legend>
+
+<input type="checkbox"> Artificial Intelligence<br>
+<input type="checkbox"> Web Development<br>
+<input type="checkbox"> Cyber Security<br>
+<input type="checkbox"> Data Science
+
+</fieldset>
+
+<fieldset>
+<legend>Scholarship</legend>
+
+Do you want to apply for scholarship?<br>
+<input type="radio" name="sch"> Yes
+<input type="radio" name="sch"> No
+
+</fieldset>
+
+<div class="buttons">
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</div>
+
+</form>
+
+</body>
+</html>
+```
